@@ -1,6 +1,6 @@
 # Aviasales на стероидах
 
-![aviasales](https://raw.githubusercontent.com/KosyanMedia/test-tasks/master/aviasales/search_preview.png)
+![aviasales](aviasales.png)
 
 ### Что сделано? Все и даже больше!
 * `#task1` Рендер билетов
