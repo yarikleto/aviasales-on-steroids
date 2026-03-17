@@ -1,9 +1,9 @@
 {
   "tickets": [{
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "08.05.18",
     "departure_time": "16:20",
     "arrival_date": "12.05.18",
@@ -13,9 +13,9 @@
     "price": 12400
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "09.02.18",
     "departure_time": "17:20",
     "arrival_date": "12.05.18",
@@ -25,9 +25,9 @@
     "price": 13100
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.17",
     "departure_time": "12:10",
     "arrival_date": "12.05.18",
@@ -37,9 +37,9 @@
     "price": 15300
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "17:00",
     "arrival_date": "12.05.18",
@@ -49,9 +49,9 @@
     "price": 11000
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "12:10",
     "arrival_date": "12.05.18",
@@ -61,9 +61,9 @@
     "price": 13400
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "9:40",
     "arrival_date": "12.05.18",
@@ -73,9 +73,9 @@
     "price": 12450
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "17:10",
     "arrival_date": "12.05.18",
@@ -85,9 +85,9 @@
     "price": 13600
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "6:10",
     "arrival_date": "12.05.18",
@@ -97,9 +97,9 @@
     "price": 14250
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "16:50",
     "arrival_date": "12.05.18",
@@ -109,9 +109,9 @@
     "price": 16700
   }, {
     "origin": "VVO",
-    "origin_name": "Владивосток",
+    "origin_name": "Vladivostok",
     "destination": "TLV",
-    "destination_name": "Тель-Авив",
+    "destination_name": "Tel Aviv",
     "departure_date": "12.05.18",
     "departure_time": "6:10",
     "arrival_date": "12.05.18",

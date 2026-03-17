@@ -72,7 +72,7 @@ const TicketFilters = ({ state, actions, codes }) => {
         className="open-filters-btn"
         onClick={openModalMenu}
       >
-        Фильтры
+        Filters
         <style jsx>{styles}</style>
       </button>
     ), MODAL_ROOT)

@@ -1,5 +1,5 @@
 import { format as formatDate } from 'date-fns'
-import ruDateLocale from 'date-fns/locale/ru'
+import enDateLocale from 'date-fns/locale/en-US'
 
 import { DATE_PATTERN } from 'constants/common'
 
@@ -8,7 +8,7 @@ export const getKeys = obj => obj ? Object.keys(obj) : []
 export const formatMoneyByCode = (money, code) => {
   const options = code ? { style: 'currency', currency: code, minimumFractionDigits: 0 }: {}
 
-  return money.toLocaleString('ru', options)
+  return money.toLocaleString('en', options)
 }
 
 export const getUniqueValues = arr => [... new Set(arr)]
@@ -16,18 +16,18 @@ export const getUniqueValues = arr => [... new Set(arr)]
 export const isArray = item => item instanceof Array
 
 /**
- * 
+ *
  *@example
  * const getNumberNounWithMessages = getNumberNoun({
- *  multipleZero: 'Нет билетов',
- *  multipleOne: 'билет',
- *  multipleTwo: 'билета',
- *  multipleFive: 'билетов'
+ *  multipleZero: 'No tickets',
+ *  multipleOne: 'ticket',
+ *  multipleTwo: 'tickets',
+ *  multipleFive: 'tickets'
  * })
- * getNumberNounWithMessages(0) -> 'Нет билетов'
- * getNumberNounWithMessages(1) -> '1 билет'
- * getNumberNounWithMessages(22) -> '22 билета'
- * getNumberNounWithMessages(45) -> '45 билетов'
+ * getNumberNounWithMessages(0) -> 'No tickets'
+ * getNumberNounWithMessages(1) -> '1 ticket'
+ * getNumberNounWithMessages(22) -> '22 tickets'
+ * getNumberNounWithMessages(45) -> '45 tickets'
  */
 export const getNumberNoun = messages => number => {
   const {
@@ -51,5 +51,5 @@ export const createTicketId = ticketInfo => {
 }
 
 export const getFortammedDate = date => {
-  return formatDate(new Date(date), DATE_PATTERN, { locale: ruDateLocale })
+  return formatDate(new Date(date), DATE_PATTERN, { locale: enDateLocale })
 }

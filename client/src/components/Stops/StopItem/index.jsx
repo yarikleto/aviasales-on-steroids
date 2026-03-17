@@ -21,7 +21,7 @@ const StopItem = ({ value, content, isActive, onToggle, onToggleOnly }) => {
         labelContent={content}
         onChange={handleCheckboxToggle}
       />
-      {onToggleOnly && <a onClick={handleCheckboxToggleOnly}>Только</a>}
+      {onToggleOnly && <a onClick={handleCheckboxToggleOnly}>Only</a>}
 
       <style jsx>{styles}</style>
     </div>

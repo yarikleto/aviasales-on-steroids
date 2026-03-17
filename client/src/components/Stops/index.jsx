@@ -8,10 +8,10 @@ import styles, { titleStyles } from './styles'
 import StopItem from './StopItem'
 
 const getNumberNounWithMessages = getNumberNoun({
-  multipleZero: 'Без пересадок',
-  multipleOne: 'пересадка',
-  multipleTwo: 'пересадки',
-  multipleFive: 'пересадок'
+  multipleZero: 'No stops',
+  multipleOne: 'stop',
+  multipleTwo: 'stops',
+  multipleFive: 'stops'
 })
 
 const Stops = ({ activeStops, stops, onToggle, onToggleOnly }) => {
@@ -31,11 +31,11 @@ const Stops = ({ activeStops, stops, onToggle, onToggleOnly }) => {
   return (
     <div className="stops">
       <Title className={titleStyles.className}>
-        Количество пересадок
+        Number of stops
       </Title>
       <StopItem
         isActive={activeStops.length === stops.length}
-        content='Все'
+        content='All'
         value={stops}
         onToggle={onToggle}
       />

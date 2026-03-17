@@ -12,9 +12,9 @@ const CARRIER_LOGO_SIZE = {
 
 const getNumberNounWithMessages = getNumberNoun({
   multipleZero: '',
-  multipleOne: 'пересадка',
-  multipleTwo: 'пересадки',
-  multipleFive: 'пересадок'
+  multipleOne: 'stop',
+  multipleTwo: 'stops',
+  multipleFive: 'stops'
 })
 
 const Ticket = ({ info }) => {
@@ -31,8 +31,8 @@ const Ticket = ({ info }) => {
           />
         </div>
         <button className="buy-button">
-          Купить <br/>
-          за {info.price}
+          Buy <br/>
+          for {info.price}
         </button>
       </div>
       <div className="main-content">
@@ -54,7 +54,7 @@ const Ticket = ({ info }) => {
           <div className="date">
             {info.arrival_date}
           </div>
-        </div> 
+        </div>
       </div>
 
       <style jsx>{styles}</style>

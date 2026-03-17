@@ -1,37 +1,37 @@
-# Aviasales на стероидах
+# Aviasales on Steroids
 
 ![aviasales](aviasales.png)
 
-### Что сделано? Все и даже больше!
-* `#task1` Рендер билетов
+### What's been done? Everything and even more!
+* `#task1` Ticket rendering
 
 
 
-* `#task2` Фильтрация билетов
+* `#task2` Ticket filtering
 
 
 
-* `#task3` Переключение валюты (беру свежие данные из `api`)
+* `#task3` Currency switching (fetching fresh data from `api`)
 
 
 
-* `#task4` Верстка билета, фильтра, переключения валют 
+* `#task4` Ticket, filter, and currency switch layout
 
-* `#task5` Респонсивность до 320px на ваш выбор
+* `#task5` Responsiveness down to 320px of your choice
 
-* `#task6` Сделать, чтобы json с билетами асинхронно подтягивался с локального сервера при инициализации (ох, там гораздо больше, чем только это)
+* `#task6` Make the ticket JSON load asynchronously from a local server on initialization (oh, there's much more than just that)
 
 ---
 
-### Как запустить?
+### How to run?
 
-1. Сперва запускаем `api` (dev-версия):
+1. First, start the `api` (dev version):
 ```bash
 cd api/
 npm i
-npm start # localhost:3000. Можно изменить в .env
+npm start # localhost:3000. Can be changed in .env
 ```
-2. Затем UI `client` (dev-версия):
+2. Then the UI `client` (dev version):
 ```bash
 cd client/
 npm i
@@ -40,11 +40,11 @@ npm start # localhost:9000
 
 ---
 
-### Почему не использовал Redux и зачем тут GraphQL?
+### Why didn't I use Redux, and why is GraphQL here?
 
-Хотел попробовать `GraphQL` и сделать управление состоянием на `хуках`. Знаю, что с `Redux` было бы гораздо проще, но так было интереснее делать тестовое. А если оно не понравится, то я все равно получил профит используя веселые комбинации :)
+I wanted to try `GraphQL` and implement state management with `hooks`. I know it would have been much simpler with `Redux`, but it was more interesting to do the test task this way. And if it doesn't work out, I still gained experience using fun combinations :)
 
-### Как с работоспособностью в двух последних версиях десктопных браузеров (IE, Chrome, Safari, Firefox)?
-Со всеми, кроме IE проблем не должно быть (его я не проверял, лень, я сожалею о своем поступке). Но `Babel` и сайт `can I use` подсказывают мне, что должно работать нормально. Ничего сырого из css я не использовал.
+### How does it work in the last two versions of desktop browsers (IE, Chrome, Safari, Firefox)?
+There shouldn't be any problems with any of them except IE (I didn't test it, too lazy, I regret my decision). But `Babel` and the `can I use` website suggest that it should work fine. I didn't use any experimental CSS features.
 
-### В общем, наслаждайтесь:)
+### In general, enjoy :)

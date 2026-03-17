@@ -21,7 +21,7 @@ const CurrencyTabs = ({ codes, activeCode, handleChangeTab }) => {
 
   return (
     <div className="currency-tabs">
-      <Title className={titleStyles.className}>Валюта</Title>
+      <Title className={titleStyles.className}>Currency</Title>
       <div className="tabs">
         {tabsView}
       </div>
